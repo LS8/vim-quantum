@@ -1,3 +1,4 @@
+### This is the fork of the original Quantum Theme by [tyrannicaltoucan](https://github.com/tyrannicaltoucan/vim-quantum), I created this fork because the project doesn't support 256-color terminals anymore
 # Quantum
 A Vim color scheme based on the [Material Design palette](https://material.google.com/style/color.html#color-color-palette).
 
