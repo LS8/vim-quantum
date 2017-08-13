@@ -179,6 +179,10 @@ call s:HL('jsNull',                         s:orange,   '',         '')
 call s:HL('jsStorageClass',                 s:purple,   '',         '')
 call s:HL('jsThis',                         s:red,      '',         '')
 call s:HL('jsUndefined',                    s:orange,   '',         '')
+call s:HL('jsVariableDef',                  s:orange,   '',         '')
+call s:HL('jsObjectKey',                    s:blue,   '',         '')
+call s:HL('jsObjectValue',                  s:navy,   '',         '')
+call s:HL('jsModuleKeyword',                s:red,   '',         '')
 
 " JSON
 call s:HL('jsonCommentError',               s:red,      '',         'reverse')
