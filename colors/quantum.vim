@@ -39,6 +39,7 @@ let s:purple    = ['#ad88e2', 141]
 let s:cyan      = ['#63c9d6', 44]
 let s:orange    = ['#da8c68', 209]
 let s:navy      = ['#6272cb', 61]
+let s:pink      = ['#ff5fff', 207]
 
 function! s:HL(group, fg, bg, attr)
     let l:attr = a:attr
@@ -177,12 +178,13 @@ call s:HL('jsGlobalObjects',                s:yellow,   '',         '')
 call s:HL('jsGlobalNodeObjects',            s:yellow,   '',         '')
 call s:HL('jsNull',                         s:orange,   '',         '')
 call s:HL('jsStorageClass',                 s:purple,   '',         '')
-call s:HL('jsThis',                         s:red,      '',         '')
+call s:HL('jsThis',                         s:red,      '',         'italic')
 call s:HL('jsUndefined',                    s:orange,   '',         '')
 call s:HL('jsVariableDef',                  s:orange,   '',         '')
 call s:HL('jsObjectKey',                    s:blue,   '',         '')
 call s:HL('jsObjectValue',                  s:navy,   '',         '')
 call s:HL('jsModuleKeyword',                s:red,   '',         '')
+call s:HL('jsDestructuringBlock',           s:pink,   '',         '')
 
 " JSON
 call s:HL('jsonCommentError',               s:red,      '',         'reverse')
